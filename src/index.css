@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+.neon-input {
+  @apply w-full p-2 rounded-lg bg-black/30 text-cyan-100
+         border border-cyan-400/30 outline-none transition;
+}
+
+.neon-input:focus {
+  box-shadow: 0 0 12px rgba(34, 211, 238, 0.8);
+  border-color: rgb(34, 211, 238);
+}
