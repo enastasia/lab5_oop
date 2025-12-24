@@ -5,7 +5,7 @@ export class MyFrac implements MyNumber<MyFrac> {
     private nom: bigint,
     private denom: bigint
   ) {
-    if (denom === 0n) throw new Error("Denominator cannot be zero")
+    if (denom === 0n) throw new Error("Не може бути нулем")
     if (denom < 0n) {
       this.nom = -this.nom
       this.denom = -this.denom
